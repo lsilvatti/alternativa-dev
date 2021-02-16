@@ -1,0 +1,41 @@
+{
+  "name": "product-admin",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "next",
+    "@material-ui/icons": "^4.11.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "node-sass": "^5.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "latest",
+    "scss": "^0.2.4",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7"
+  }
+}
