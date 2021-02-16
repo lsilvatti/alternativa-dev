@@ -76,7 +76,7 @@ export default function Produtos() {
     const changeEditFieldsHandle = (event: React.ChangeEvent<HTMLInputElement>) => {
         let newEditValues: any = { ...editValues };
         newEditValues[event.target.name] = event.target.value;
-        if (event.target.name = "value"){
+        if (event.target.name == "value"){
             newEditValues[event.target.name]
         }
         setEditValues(newEditValues);
