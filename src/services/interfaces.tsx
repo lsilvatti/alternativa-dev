@@ -1,3 +1,5 @@
+//Interfaces de cada tipo tratado pelo CRUD
+
 export interface Product {
     value: string,
     categoryId: number,

@@ -1,5 +1,6 @@
 import {Product, Category} from "./interfaces"
 
+//VARIAVEIS DE AMBIENTE
 const productEndpoint = 'http://209.126.0.127:6001/api/product';
 const categoryEndpoint = 'http://209.126.0.127:6001/api/category';
 const headers = {
