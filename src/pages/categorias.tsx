@@ -4,7 +4,6 @@ import { Table, TableBody, TableCell, TableHead, TableRow, Dialog, DialogActions
 import {Delete, Edit, Add, BorderAllRounded} from '@material-ui/icons';
 import { getProduct, getCategory, postCategory, deleteCategory, putCategory } from '../services/api';
 import {Product, Category} from "../services/interfaces"
-import '../scss/form.scss';
 
 
 export default function Produtos() {
